@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body{
+        background-color: #F0F2F5;
+        /* background-image: url('/img/login\ background.jpg' ); */
+    background-repeat: no-repeat;
+    background-size: cover;   
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin: 78px;
+    display: block;
+    box-sizing: border-box;
+}
+.fb:hover{
+   background-color:#1449bb  
+}
+.twitter:hover{
+    background-color: #2896eb;
+}
+.login:hover{
+    background-color: #eb1010;
+}
+.container{
+    background-color: #ffffff;
+    width: 500px;
+    position: relative;
+    height: 600px;
+    padding-bottom: 50px;
+    padding: 50px;
+    margin-right:auto;
+    margin-left: auto;
+
+}
+#Logintext{
+    text-align: center;
+    font-size: 36px;
+}
+.fb{
+    text-decoration: none;
+    background-color: #3B5998;
+        color: white;
+        border-radius: 50px;
+        padding: 18px;
+        padding-left: 90px;
+        padding-right: 85px;
+        border-color: white;
+        display: inline-flex;
+    font-size: 15px;
+    cursor: pointer;
+    }
+.twitter{
+    text-decoration: none;
+    background-color: #55ACEE;
+        color: white;
+        border-radius: 50px;
+        padding: 17px;
+        padding-left: 90px;
+        padding-right: 105px;
+        border-color: white;
+        display: inline-flex;
+        font-size: 15px;
+        cursor: pointer;
+}
+#socialbutton{
+    border: none;
+    background: none;
+    padding-left: 100px;
+}
+#loginemail{
+    text-align: center;
+    font-size: 18px;
+}
+#name{
+padding: 15px;
+width: 275px;
+border-radius: 50px;
+}
+#Password{
+padding: 15px;
+width: 275px;
+border-radius: 50px;
+}
+.form{
+    padding-left: 105px;
+}
+#rememberme{
+        padding-left: 80px;
+}
+.login{
+    text-decoration: none;
+    background-color: #ff3333;
+        color: white;
+        border-radius: 50px;
+        padding: 16px;
+        padding-left: 90px;
+        padding-right: 100px;
+        border-color: white;
+        display: inline-flex;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+}
+#loginbutton{
+    padding-left: 39px;
+}
+#noAcc{
+padding-left: 45px;
+font-size: 15px;
+}
+.signup{
+    text-decoration: none;
+    font-size: 20px;
+}
+.signup:hover{
+    background-color: solid black;
+}
+</style>
+<body>
+    <div class="container">
+<table align="center">
+    <td id="Logintext">Login</td>
+</table>
+<br>
+<br>
+<br>
+    <table >
+        <button id="socialbutton">
+        <a href="https://www.facebook.com/" target="_blank" class="fb">Login With Facebook</a>
+    </button>
+        <br>
+<br>
+<button id="socialbutton">
+<a href="https://www.twitter.com/" target="_blank" class="twitter">Login With Twitter</a>
+</button>
+</table>
+<br>
+<p id="loginemail">
+    <b> Login With Email </b> 
+</p>
+<div class="form">
+<form>
+<label for="name"></label>
+<input required type="text" id="name" placeholder="User Name" >
+<br><br>
+<label for="Password"></label>
+<input required type="text" id="Password" placeholder="Password" >
+<br><br>
+<div id="rememberme">
+<label for="checkbox"></label>
+<input type="checkbox" id="checkbox"> Remember Me
+</div>
+<br>
+<div id="loginbutton">
+<button class="login">Login</button>
+</div>
+</form>
+<p id="noAcc">
+    Dont Have An Account ? <a href="signup.html" target="_blank" class="signup">Sign Up</a>
+</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
