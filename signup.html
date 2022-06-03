@@ -15,7 +15,7 @@
 }
 body{
     font-family: sans-serif;
-    background-color: #F0F2F5;
+    background-color: #b0c0d8;
     /* background-image: url('/img/login\ background.jpg' ); */
     background-repeat: no-repeat;
     margin: 58px;
@@ -86,13 +86,13 @@ body{
     <div >
 <form>
   <span class="inputfield">
-    <input class="inline"  type="text" placeholder="First name" name="fullname" required>
-    <input class="inline" type="text" placeholder="Surname" name="surname" required>
+    <input maxlength="15" minlength="3" class="inline"  type="text" placeholder="First name" name="fullname" required>
+    <input maxlength="15" minlength="3" class="inline" type="text" placeholder="Surname" name="surname" required>
 </span>
     <br> <br>
    <input class="inline1" style="width: 340px;" type="email" placeholder="Mobile number or email address" name="number or email" required>
    <br> <br>
-   <input class="inline1" style="width: 340px;" type="Password" placeholder="New Password" name="Password" required>
+   <input maxlength="20" minlength="8" class="inline1" style="width: 340px;" type="Password" placeholder="New Password" name="Password" required>
 
 </form>
 <br><br><br>
